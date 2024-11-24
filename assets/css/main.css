@@ -160,6 +160,7 @@ h6 {
 .header .profile-img img {
   margin: 15px auto;
   display: block;
+  height: 130px;
   width: 120px;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
@@ -1266,6 +1267,20 @@ section,
   margin-right: 8px;
   color: var(--accent-color);
 }
+
+.card-img-top {
+  width: 100%; /* Ensures the image spans the card width */
+  height: 200px; /* Sets a fixed height */
+  object-fit: cover; 
+  object-position: center; /* Centers the image within the container */
+  background-color: #f8f9fa; 
+}
+
+.card {
+  height: 100%; /* Ensures cards are stretched equally */
+}
+
+
 
 /*--------------------------------------------------------------
 # Starter Section Section
