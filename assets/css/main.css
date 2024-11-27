@@ -1280,6 +1280,33 @@ section,
   height: 100%; 
 }
 
+.solid-dark-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.solid-dark-button:hover {
+  background-color: #444;
+}
+
+.solid-grey-button {
+  background-color: grey;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.solid-grey-button:hover {
+  background-color: #0e3d4c;
+}
 
 
 /*--------------------------------------------------------------
