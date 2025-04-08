@@ -545,6 +545,16 @@ section,
   margin-bottom: 0;
 }
 
+.section-skills .title {
+  transition: transform 0.3s ease;
+}
+
+.section-skills .title:hover {
+  color: var(--accent-color);
+  scale: 1.3;
+  cursor: alias;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
