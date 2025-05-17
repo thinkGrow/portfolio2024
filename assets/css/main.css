@@ -1374,3 +1374,20 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+#portfolio table {
+  border-collapse: collapse; /* removes double borders */
+  width: 60%;
+  margin: 20px auto;
+}
+
+#portfolio th,
+td {
+  border: 1px solid black; /* table border */
+  padding: 10px;
+  text-align: center;
+}
+
+#portfolio th {
+      background-color: #f2f2f2;
+    }
